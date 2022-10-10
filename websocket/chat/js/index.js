@@ -1,4 +1,4 @@
-((doc) => {
+((doc, WebSocket) => {
   const oList = doc.querySelector('#list')
   const omessage = doc.querySelector('#message')
   const oSend = doc.querySelector('#send')
@@ -31,5 +31,5 @@
   }
 
   init()
-})(document)
+})(document, WebSocket)
 
